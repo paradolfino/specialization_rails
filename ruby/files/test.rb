@@ -1,1 +1,1 @@
-Test
+##WRITING & READINGfname = "test.rb"File.open(fname, "w") do |f|    f.puts "Test"endtest_arr = []File.foreach("beta.rb") do |l|    test_arr.push(l.chomp)endFile.open(fname, "w") {|f| f.puts test_arr.join }
