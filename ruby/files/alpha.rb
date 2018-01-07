@@ -5,8 +5,11 @@
 #     p line.split
 # end
 
+puts "Give filename:"
+input = gets.chomp
+
 begin
-    File.foreach( 'alpha.rb' ) do |l|
+    File.foreach( input ) do |l|
         puts l
     end
 rescue => e
