@@ -12,6 +12,6 @@ begin
     File.foreach( input ) do |l|
         puts l
     end
-rescue => e
+rescue ENOENT => e
     p e
 end
