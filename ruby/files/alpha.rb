@@ -16,3 +16,8 @@
 #     p e
 # end
 
+if File.exist? 'test.rb'
+
+    File.foreach( input ) do |l|
+                 puts l
+    end
