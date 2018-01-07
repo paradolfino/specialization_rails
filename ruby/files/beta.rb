@@ -1,4 +1,5 @@
 ##WRITING
 File.open("test.rb", "w") do |f|
-    f.puts "Test"
+    f.puts ENV["EDITOR"]
 end
+
