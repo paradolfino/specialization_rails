@@ -4,3 +4,9 @@
 #     p line.chomp
 #     p line.split
 # end
+
+begin
+    
+rescue => e
+    p e
+end
