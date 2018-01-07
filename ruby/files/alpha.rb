@@ -6,7 +6,9 @@
 # end
 
 begin
-    
+    File.foreach( 'alpha.rb' ) do |l|
+        puts l
+    end
 rescue => e
     p e
 end
