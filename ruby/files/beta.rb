@@ -10,5 +10,5 @@ File.foreach("beta.rb") do |l|
     test_arr.push(l.chomp)
 end
 
-File.open(fname, "w") {|f| f.puts test_arr.join }
+File.open(fname, "w") {|f| f.puts test_arr.join("\n") }
 
