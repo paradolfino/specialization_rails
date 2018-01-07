@@ -1,4 +1,4 @@
-File.foreach( 'gitreaper.rb' ) do |line|
+File.each( 'gitreaper.rb' ) do |line|
     puts line
     p line
     p line.chomp
