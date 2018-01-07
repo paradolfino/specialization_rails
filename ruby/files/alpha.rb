@@ -1,2 +1,3 @@
 File.foreach( 'gitreaper.rb' ) do |line|
-    p 
+    puts
+    p line
