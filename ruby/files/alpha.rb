@@ -12,6 +12,6 @@ begin
     File.foreach( input ) do |l|
         puts l
     end
-rescue Exception => e
+rescue StandardError => e
     p e
 end
