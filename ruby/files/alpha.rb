@@ -5,13 +5,14 @@
 #     p line.split
 # end
 
-puts "Give filename:"
-input = gets.chomp
+# puts "Give filename:"
+# input = gets.chomp
 
-begin
-    File.foreach( input ) do |l|
-        puts l
-    end
-rescue StandardError => e
-    p e
-end
+# begin
+#     File.foreach( input ) do |l|
+#         puts l
+#     end
+# rescue StandardError => e
+#     p e
+# end
+
