@@ -14,8 +14,8 @@
 #   puts "I guess nothing matched... But why?"
 # end
 
-some_var = "pink elephant"
-another_var = "nil"
+some_var = "false"
+another_var = nil
 
 case
 when some_var == "pink elephant"
