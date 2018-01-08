@@ -14,7 +14,7 @@
 #   puts "I guess nothing matched... But why?"
 # end
 
-some_var = "false"
+some_var = "pink elephant"
 another_var = "nil"
 
 case
