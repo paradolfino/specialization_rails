@@ -16,7 +16,7 @@ class Person
         self.age = age
     end
     def age= (new_age)
-        @age ||=5
+        @age ||=5 #default
         @age = new_age unless new_age > 120
     end
 end
