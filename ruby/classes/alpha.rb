@@ -2,7 +2,7 @@ class Person
     #attr_accessor :name, :age
     #attr_writer
     #attr_reader
-    def initialize (name: "default", age)
+    def initialize (name: "default", age: "def age")
         @name = name
         @age = age
     end
