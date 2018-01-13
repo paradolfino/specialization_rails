@@ -19,7 +19,7 @@ class Person
     #accept a `last_name` parameter
     #search the `people` class attribute for instances with the same `last_name`
     #return a collection of matching instances
-    @@people.select {|person| if person.last_name == last_name }
+    @@people.select {|person| person.last_name == last_name }
   end
 
   #have a `to_s` method to return a formatted string of the person's name
