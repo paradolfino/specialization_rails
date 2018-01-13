@@ -1,3 +1,4 @@
 06/01/2018 20:34:pool[n5bd7r]: practice ruby file methods
 08/01/2018 14:23:pool[7q065l]: work on module_2, assign_1
 12/01/2018 19:58:pool[15u8wp]: module 2 assignment 2: method chaining with select, reject, sort, and reverse
+12/01/2018 20:30:pool[6zq5n3]: practice class inheritance, methods, || operator
