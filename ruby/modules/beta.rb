@@ -12,4 +12,5 @@ class Person
 end
 
 class Company
-    inclue SayMyName
+    include SayMyName
+end
