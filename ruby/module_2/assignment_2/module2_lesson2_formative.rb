@@ -4,7 +4,7 @@ arr = (1..10000).to_a.sample(23)
 
 # This selects only elements that when divided by 3 have a remainder of 0 
 # using the % (modulus) operator
-p arr.select{ |element| element % 3 == 0 }.reject{ |x| x < 5000 }.sort.reverse
+p arr.select{ |element| element % 3 == 0 }.reject{ |x| if x > 5000 }.sort.reverse
 
 # Using `reject` method filter out anything less than 5000
 # and use `sort` and `reverse` methods to sort in descending order
