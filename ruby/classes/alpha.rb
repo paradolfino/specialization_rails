@@ -20,4 +20,4 @@ end
 
 per = Person.new
 
-p per[:age]
+p per
