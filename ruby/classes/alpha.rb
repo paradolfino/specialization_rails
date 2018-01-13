@@ -1,5 +1,5 @@
 class Person
-    def initialize (name, age)
+    def initialize (name: "default", age)
         @name = name
         @age = age
     end
