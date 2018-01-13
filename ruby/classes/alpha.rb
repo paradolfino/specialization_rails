@@ -6,3 +6,4 @@ class Person
     def get_info
         @additional_info = "Interesting"
         "Name: #{@name}, age: #{@age}"
+    end
