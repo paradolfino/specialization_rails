@@ -16,3 +16,4 @@ end
 
 puts MatFun.dble 5 # => 10
 puts MatFun.tple(3) # => 9
+puts MatFun.times_called # => 3
