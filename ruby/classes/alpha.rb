@@ -1,5 +1,5 @@
 class Person
-    #attr_accessor
+    #attr_accessor :name, :age
     #attr_writer
     #attr_reader
     def initialize (name: "default", age)
