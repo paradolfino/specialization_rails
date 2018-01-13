@@ -9,8 +9,9 @@ class Person
   def initialize(first_name,last_name)#should take 2 parameters for first_name and last_name
     #assign those parameters to instance variables
     #add the created instance (self) to people class variable
-    @@first_name = first_name
-    @@last_name = last_name
+    @first_name = first_name
+    @last_name = last_name
+    @@people.push({first_name: last_name})
   end
 
   #have a `search` method to locate all people with a matching `last_name`
