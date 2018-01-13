@@ -12,6 +12,7 @@ class Person
     @first_name = first_name
     @last_name = last_name
     @@people.push({first_name: @first_name, last_name: @last_name})
+    p @@people
   end
 
   #have a `search` method to locate all people with a matching `last_name`
