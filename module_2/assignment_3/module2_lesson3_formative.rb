@@ -34,7 +34,7 @@ p2 = Person.new("John", "Doe")
 p3 = Person.new("Jane", "Smith")
 p4 = Person.new("Cool", "Dude")
 
-p Person.search("Smith")
+puts Person.search("Smith")
 
 # Should print out
 # => John Smith
