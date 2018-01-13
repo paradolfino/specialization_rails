@@ -6,3 +6,10 @@ module SayMyName
         puts "Name: #{@name}"
     end
 end
+
+class Person
+    include SayMyName
+end
+
+class Company
+    inclue SayMyName
