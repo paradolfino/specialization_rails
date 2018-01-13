@@ -7,3 +7,4 @@ class Person
         @additional_info = "Interesting"
         "Name: #{@name}, age: #{@age}"
     end
+end
