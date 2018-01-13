@@ -10,3 +10,4 @@ class Person
     def age= (new_age)
         @age = new_age unless new)age > 120
     end
+end
