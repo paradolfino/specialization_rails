@@ -1,5 +1,7 @@
 class Person
     #attr_accessor
+    #attr_writer
+    #attr_reader
     def initialize (name: "default", age)
         @name = name
         @age = age
