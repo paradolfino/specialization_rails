@@ -4,7 +4,7 @@ class Person
 
     def initialize(name, ageVar)
         @name = name
-        self.age = ageVar
+        self.age = ageVar #call age= method
         puts age
     end
     def age= (new_age)
