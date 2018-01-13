@@ -11,7 +11,7 @@ class Person
     #add the created instance (self) to people class variable
     self.first_name = first_name
     self.last_name = last_name
-    @@people.push(self)
+    @@people << self
   end
 
   #have a `search` method to locate all people with a matching `last_name`
