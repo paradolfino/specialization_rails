@@ -13,3 +13,6 @@ end
 def MatFun.tple(var) #outside of class
     times_called; var * 3
 end
+
+puts MatFun.dble 5 # => 10
+puts MatFun.tple(3) # => 9
