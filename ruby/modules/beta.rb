@@ -14,3 +14,11 @@ end
 class Company
     include SayMyName
 end
+
+person = Person.new
+person.name = "Joe"
+person.print_name
+
+company = Company.new
+company.name = "Google"
+company.print_name
