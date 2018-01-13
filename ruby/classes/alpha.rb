@@ -7,4 +7,10 @@ class Person
         @additional_info = "Interesting"
         "Name: #{@name}, age: #{@age}"
     end
+    def name #getter
+        @name
+    end
+    def name= (new_name)
+        @name = new_name
+    end
 end
