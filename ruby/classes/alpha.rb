@@ -17,3 +17,7 @@ class Person
         @name = new_name #setter
     end
 end
+
+per = Person.new
+
+p per
