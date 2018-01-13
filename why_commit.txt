@@ -3,3 +3,4 @@
 12/01/2018 19:58:pool[15u8wp]: module 2 assignment 2: method chaining with select, reject, sort, and reverse
 12/01/2018 20:30:pool[6zq5n3]: practice class inheritance, methods, || operator
 13/01/2018 17:33:pool[tn70t5]: practice modules and mixins
+13/01/2018 17:54:pool[o032h4]: module 2, assignment 3: classes
