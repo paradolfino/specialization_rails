@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../calculator'
+require_relative '../alpha'
 
 describe Calculator do
     before { @calculator = Calculator.new('RSpec calculator')}
