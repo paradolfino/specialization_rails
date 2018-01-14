@@ -15,4 +15,4 @@ describe Calculator do
     end
 end
 
-#
+#be_ predicate for booleans such as be_even, be_odd, be_nil
