@@ -10,4 +10,7 @@ class Calculator
         one - two
     end
 
-    def 
+    def subtract(one, two)
+        one + two
+    end
+    
