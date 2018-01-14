@@ -1,6 +1,8 @@
 require 'rspec'
 require_relative '../alpha'
 
+#to not_to are matchers
+
 describe Calculator do
     before { @calculator = Calculator.new('RSpec calculator')}
 
