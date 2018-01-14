@@ -15,7 +15,7 @@ describe Calculator do
     end
 
     #be_ predicate for booleans such as be_even, be_odd, be_nil
-    it "should sum 2 odd numbers and return an even result"
+    it "should sum 2 odd numbers and return an even result" do
         expect(@calculator.sum_even(5,5)).to be_even
     end
 end
