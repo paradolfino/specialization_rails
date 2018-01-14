@@ -11,6 +11,6 @@ describe Calculator do
     end
 
     it "should subtract 2 numbers correctly" do
-        expect(@calculator.subtract(5,5)).to eq 0
+        expect(@calculator.subtract(5,5)).not_to eq 10
     end
 end
