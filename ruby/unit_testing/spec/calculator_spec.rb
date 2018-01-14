@@ -2,4 +2,4 @@ require 'rspec'
 require_relative '../calculator'
 
 describe Calculator do
-    b
+    before { @calculator = Calculator.new('RSpec calculator')}
