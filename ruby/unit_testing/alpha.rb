@@ -18,4 +18,8 @@ class Calculator
         one /two
     end
 
+    def sum_even(one, two)
+        one + two
+    end
+
 end
